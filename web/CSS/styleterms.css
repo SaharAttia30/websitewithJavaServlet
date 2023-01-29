@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.body{
+    height: 100%;
+    margin-right:10%;
+    margin-left: 10%;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 0;
+    background-color: white;
+
+}
+.body p{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    background-color: wheat;
+    display: inline-block;
+}
+

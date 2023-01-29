@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div.form {
+  margin-top: 5px;
+  margin-right: 10%;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 80px;
+  background-color: wheat;
+  border: 2px dotted black ;
+}
+button {
+  background-color: rgb(90, 90, 248);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+div#table{
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display:table;
+  border-collapse:collapse; 
+  background-color: wheat;
+  border: 2px solid;
+  width: 100%;
+}
+div.row{
+  display: table-row;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+div.table_head{
+  display: table-cell;
+  font-weight: bold;
+  padding: 10px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  white-space: nowrap;
+}
+
+div.table_cell{
+  display: table-cell;
+  padding: 5px;
+  border-right: 1px solid black;
+}
+
+div input[type=date],div input[type=number]{
+  height: 25px;
+  margin:0;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
